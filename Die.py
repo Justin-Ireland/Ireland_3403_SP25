@@ -14,7 +14,7 @@ def rollFairDie():
     :return: an integer between 1 and 6 inclusive
     """
 
-    x = random() #JES MISSING CODE  # should be a floating point number between 0.0 and 1.0
+    x = random()   # should be a floating point number between 0.0 and 1.0
     if x <= 1.0/6:
         return 1
     elif x <= 2.0/6:
@@ -49,10 +49,12 @@ def rollUnFairDie():
         return 5
     elif x <= 1.0:
         return 6
-         #JES MISSING CODE
+
 # endregion
 
 # The if statement below is known as: main guarding
 if __name__ == "__main__":
     x = rollFairDie()
+    y = rollUnFairDie()
     print(x)
+    print(y)

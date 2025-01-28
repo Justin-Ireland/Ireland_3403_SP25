@@ -10,7 +10,7 @@ def main1():  # main function to roll nDice fair dice nRolls times and output pr
     """
     This function rolls nDice nRolls times and calculates the probabilities for
     each possible score based on P(7)=nTally/nRolls, where nTally is number times I roll a 7, for example.
-    :return: nothing
+    :return: Chance of rolling each possible score of 3 dice rolled simultaneously
     """
     nDice = 3  # number of dice
     nMinScore = 3  # total score if each die scores 1
@@ -34,7 +34,7 @@ def main2():  # main function to roll nDice unfair dice nRolls times and output 
     """
     This function rolls nDice nRolls times and calculates the probabilities for
     each possible score based on P(7)=nTally/nRolls, where nTally is number times I roll a 7, for example.
-    :return: nothing
+    :return: Chance of each score of rolling 5 unfair dice 1000 times
     """
     nDice = 5   # number of dice
     nMinScore = 5   # total score if each die scores 1

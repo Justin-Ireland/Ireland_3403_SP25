@@ -13,7 +13,7 @@ def main():
     """
     This function rolls a fair die 1000 times and tallies the number of 1's, 2's etc.  Finally,
     it calculates and outputs the probability of each possible score.
-    :return: probability of side of fair die rolled
+    :return: probability of side of fair die rolled 1000 times
     """
     scores = [0, 0, 0, 0, 0, 0,]  # create a list with 6 elements/items initialized to 0's
     n = 1000  # how many times to roll the die
@@ -39,7 +39,6 @@ def main2():
     """
     This function rolls a fair die 10000 times and tallies the number of 1's, 2's etc.  Finally,
     it calculates and outputs the probability of each possible score.
-    :return: nothing
     """
     """function uses two for loops to call rfd 10,000 times and counting the scores input into the scores list. Then 
     calculates the probability of each side being rolled in decimal and percentage"""
@@ -67,7 +66,7 @@ def main3():
     """
     This function rolls an unfair die 10000 times and tallies the number of 1's, 2's etc.  Finally,
     it calculates and outputs the probability of each possible score.
-    :return: nothing
+    :return: probability of score of rolling unfair die 10000 times
     """
     scores = [0, 0, 0, 0, 0, 0, ]  # create a list with 6 elements/items initialized to 0's
     n = 10000  # how many times to roll the die

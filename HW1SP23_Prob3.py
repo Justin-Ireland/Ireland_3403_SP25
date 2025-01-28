@@ -38,8 +38,7 @@ def main():
     if they match the theoretical values.  I'll create 3 bins into which the
     numbers in my array will fit.  Note:  a number in bin 1 will also be in bins
     2 & 3.  A number in bin3 will not necessarily be in 1 or 2.
-    :return: nothing
-    """
+    :return: percentage of data within +/- (x) of StDev of Mean."""
     N = 1000 # size of array I want
     arr = []  # array for storing the numbers
     mean = 50  # the mean I want
